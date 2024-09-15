@@ -1,4 +1,4 @@
-target/
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -15,3 +15,86 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Maven target directory
+target/
+
+# Maven dependency directory
+.m2/repository/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA workspace storage
+.idea/.idea/
+.idea/modules.xml
+.idea/*.iml
+.idea/.name
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/.idea_modules/
+
+# Build directories
+build/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.bak
+
+# Java class files
+*.class
+
+# Generated files
+*.jar
+*.war
+*.ear
+
+# Local configuration files
+*.local
+
+# Temporary files
+*.swp
+*.swo
+*.swo
+
+# Spring Boot specific
+spring-boot-maven-plugin.properties
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+*.swo
+*.swp
+
+# JetBrains Rider and WebStorm specific files
+.idea/
+
+# Yarn and npm dependency directories
+node_modules/
+yarn-error.log
+package-lock.json
+
+# Environment files
+.env
+
+# Maven Wrapper
+.mvn/wrapper/
